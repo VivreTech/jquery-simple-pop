@@ -1,146 +1,17 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>JquerySimplePop by VivreTech</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery SimplePop - Simple popup plugin</title>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>JquerySimplePop</h1>
-        <p>jQuery plugin for Inline Popups </p>
+</head>
+    <body>
+        <div class="example-wrapper">
 
-        <p class="view"><a href="https://github.com/VivreTech/jquery-simple-pop">View the Project on GitHub <small>VivreTech/jquery-simple-pop</small></a></p>
+            <h1>Hello World</h1>
 
-
-        <ul>
-          <li><a href="https://github.com/VivreTech/jquery-simple-pop/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/VivreTech/jquery-simple-pop/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/VivreTech/jquery-simple-pop">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>
-<a id="simple-modalpopup-for-inline-elements-based-on-css" class="anchor" href="#simple-modalpopup-for-inline-elements-based-on-css" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Simple modal/popup for inline elements based on CSS</h1>
-
-<h2>
-<a id="how-to-use-this-plugin" class="anchor" href="#how-to-use-this-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use this plugin</h2>
-
-<h3>
-<a id="1-create-markup-inline" class="anchor" href="#1-create-markup-inline" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Create markup (Inline)</h3>
-
-<pre><code> div.modal__wrapper.is-hidden (Add any custom class for themes e.g. .modal__wrapper--default-theme)
-    div.modal__double.js-modal__double
-</code></pre>
-
-<h3>
-<a id="2-inside-of-the-two-div-you-can-do-your-magic" class="anchor" href="#2-inside-of-the-two-div-you-can-do-your-magic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Inside of the two div you can do your magic.</h3>
-
-<pre><code>    div.modal__content
-</code></pre>
-
-<h3>
-<a id="3-place-the-close-button-if-needed" class="anchor" href="#3-place-the-close-button-if-needed" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Place the close button if needed</h3>
-
-<pre><code>a.modal__close.js-modal__close
-</code></pre>
-
-<h3>
-<a id="4-add-custom-class-for-the-main-wrapper-to-attach-the-plugin-too" class="anchor" href="#4-add-custom-class-for-the-main-wrapper-to-attach-the-plugin-too" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. Add custom class for the main wrapper to attach the plugin too</h3>
-
-<pre><code>.js-example-modal
-</code></pre>
-
-<h3>
-<a id="5-call-the-plugin-when-needed" class="anchor" href="#5-call-the-plugin-when-needed" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. Call the plugin when needed</h3>
-
-<pre><code>$('.js-example-modal').simplePop();
-</code></pre>
-
-<h2>
-<a id="how-to-customize" class="anchor" href="#how-to-customize" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to customize</h2>
-
-<p>In the SCSS file you can find examples for custom show/hide animations</p>
-
-<h2>
-<a id="api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Api</h2>
-
-<h3>
-<a id="1-class-names" class="anchor" href="#1-class-names" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Class names</h3>
-
-<p>You can customise the following classes when instantiating the plugin</p>
-
-<ul>
-<li> <code>classHidden: 'is-hidden'</code>
-</li>
-<li> <code>classVisible: 'is-visible'</code>
-</li>
-<li> <code>classInvisible: 'is-invisible'</code>
-</li>
-<li> <code>classTall: 'is-tall'</code>
-</li>
-<li> <code>classBellow: 'is-bellow'</code>
-</li>
-<li> <code>classCloseButton: 'js-modal__close'</code>
-</li>
-<li> <code>classBackground: 'js-modal__double'</code>
-</li>
-</ul>
-
-<h3>
-<a id="2-callbacks" class="anchor" href="#2-callbacks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Callbacks</h3>
-
-<p>You have callbacks onClose, onIntentClose, onMistakeClose</p>
-
-<ul>
-<li> <code>onClose</code>: when the modal is closed</li>
-<li> <code>onIntentClose</code>: when the user clicks on the close button</li>
-<li> <code>onMistakeClose</code>: when the user closes the modal by clicking on the background</li>
-</ul>
-
-<h3>
-<a id="3-example-with-defaults" class="anchor" href="#3-example-with-defaults" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. Example with defaults</h3>
-
-<pre><code> $('.js-example-modal').simplePop({
-     classHidden: 'is-hidden',
-     classVisible: 'is-visible',
-     classInvisible: 'is-invisible',
-     classTall: 'is-tall',
-     classBellow: 'is-bellow',
-     classCloseButton: 'js-modal__close',
-     classBackground: 'js-modal__double',
-     closeOthers: true,
-     closeOthersDelay: 200, //Miliseconds
-     onOpen: function(element){
-        console.log('I am open');
-        //'element' is the parent of the modal
-     }
-     onClose: function(element){
-        console.log('I am closed');
-     },
-     onIntentClose: function(element){
-        console.log('I am closed from the X')
-     },
-     onMistakeClose: function(){
-        console.log('I am closed from the background')
-     }
- })
-</code></pre>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/VivreTech">VivreTech</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+        <script src="https://raw.githubusercontent.com/VivreTech/jquery-simple-pop/master/jquery.simplePopup.js"></script>
+    </body>
 </html>
