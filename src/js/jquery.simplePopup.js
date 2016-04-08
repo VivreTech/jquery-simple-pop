@@ -120,7 +120,7 @@
 
 		console.log('_showModal');
 
-		//Is there any other modals?
+		//Are there any other modals?
 		var otherItems = $('.' + pluginName + '__active').not(plugin.element);
 
 
@@ -204,7 +204,7 @@
 	$.extend(Plugin.prototype, {
 		init: function () {
 
-			// Calling a private function that dont have access to "this",
+			// Calling a private function that doesn't have access to "this"
 			// you need to pass the plugin
 			_showModal(this);
 
