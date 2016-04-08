@@ -84,3 +84,11 @@ You have callbacks onClose, onIntentClose, onMistakeClose
 	 }
  })
 ```
+
+##Demo
+You can run index.html or run a mini-serve with gulp, browsersync and all the goodies
+
+
+- Run `sudo npn install` to install dependencies
+- Run `gulp serve` that will open up a server on localhost:3000 with the index file
+- Do some stuff and commit
