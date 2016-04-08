@@ -1,0 +1,303 @@
+.modal {
+  &__wrapper  {
+	width:100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: 9999;
+	position: fixed;
+	top:0;
+	left: 0;
+	display: table;
+	overflow-x: hidden;
+	background: rgba(#333, .5);
+	&.is-tall {
+	  overflow-x: auto;
+	  display: block;
+	  .modal__double {
+		display: block;
+		height: 100%;
+		overflow: auto;
+	  }
+	  .modal__content {
+		margin: 40px auto;
+	  }
+	}
+	&.is-bellow {
+	  z-index: 9998;
+	}
+	&.is-hidden {
+	  display: none;
+	}
+	&.is-invisible {
+	  animation: standard__hide-bg 1s;
+	  animation-fill-mode: forwards;
+	  .modal__content {
+		animation: standard__hide .3s;
+		animation-fill-mode: forwards;
+	  }
+	}
+	&.is-visible {
+	  .modal__content {
+		animation: standard__show .3s;
+		animation-fill-mode: forwards;
+	  }
+	}
+
+	.modal__content {
+	  width: 540px;
+	  box-shadow: 0 0 10px 5px rgba(#000, .1);
+	}
+  }
+
+  &__double {
+	display: table-cell;
+	vertical-align: middle;
+  }
+
+  &__content {
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+  }
+
+  &__close {
+	&:before {
+	  content: '\00D7';
+	  display: inline-block;
+	  color: #666;
+	  text-decoration: none;
+	  font-size: 30px;
+	  line-height: 10px;
+	}
+	position: absolute;
+	top:20px;
+	right: 20px;
+  }
+
+}
+
+
+/*
+ * Themes for animations and stuff
+ */
+
+.modal__wrapper--default-theme {
+  background: rgba(#333, .5);
+  &.is-invisible {
+	animation: default__hide-bg .5s;
+	animation-fill-mode: forwards;
+	.modal__content {
+	  animation: default__hide .3s;
+	  animation-fill-mode: forwards;
+	}
+  }
+  &.is-visible {
+	.modal__content {
+	  animation: default__show .3s;
+	  animation-fill-mode: forwards;
+	}
+  }
+
+  .modal__content {
+	width: 540px;
+	box-shadow: 0 0 10px 5px rgba(#000, .1);
+  }
+  .modal__close {
+	&:before {
+	  display: none;
+	}
+	@extend .icn;
+	@extend .icn-v2_close;
+  }
+}
+
+//Custom
+.modal__wrapper--custom-theme {
+
+  background: rgba(#333, .2);
+
+  &.is-invisible {
+	animation: custom__hide-bg .5s;
+	animation-fill-mode: forwards;
+	.modal__content {
+	  animation: custom__hide .5s;
+	  animation-fill-mode: forwards;
+	}
+  }
+  &.is-visible {
+	.modal__content {
+	  animation: custom__show .3s;
+	  animation-fill-mode: forwards;
+	}
+  }
+
+  .modal__content {
+	width: 960px;
+	box-shadow: 0 0 10px 2px rgba(#000, .2);
+  }
+
+  .modal__close {
+	&:before {
+	  display: none;
+	}
+	@extend .icn;
+	@extend .icn-v2_close;
+  }
+
+}
+
+.modal__wrapper--custom-theme {
+
+  background: rgba(#333, .2);
+
+  &.is-invisible {
+	animation: custom__hide-bg .5s;
+	animation-fill-mode: forwards;
+	.modal__content {
+	  animation: custom__hide .5s;
+	  animation-fill-mode: forwards;
+	}
+  }
+  &.is-visible {
+	.modal__content {
+	  animation: custom__show .3s;
+	  animation-fill-mode: forwards;
+	}
+  }
+
+  .modal__content {
+	width: 960px;
+	box-shadow: 0 0 10px 2px rgba(#000, .2);
+  }
+
+  .modal__close {
+	&:before {
+	  display: none;
+	}
+	@extend .icn;
+	@extend .icn-v2_close;
+  }
+
+}
+
+/*
+ * Standard animations
+ */
+
+@keyframes standard__show {
+  100% {
+	opacity: 1;
+	z-index: 99999;
+  }
+
+}
+
+@keyframes standard__hide {
+  100% {
+	opacity: 0;
+	z-index: -1;
+  }
+
+}
+
+@keyframes standard__hide-bg {
+  100% {
+	background: none;
+	opacity: 0;
+	z-index: -1;
+  }
+
+}
+
+
+/*
+ * Default animations
+ */
+
+@keyframes default__show {
+  0% {
+
+  }
+  50% {
+	transform: scale(1.02);
+  }
+  100% {
+	opacity: 1;
+	z-index: 99999;
+  }
+
+}
+
+
+@keyframes default__hide {
+  0% {
+  }
+  50% {
+	opacity: .5;
+  }
+  100% {
+	opacity: 0;
+	z-index: -1;
+	transform: scale(.9);
+  }
+
+}
+
+@keyframes default__hide-bg {
+  0% {
+  }
+  50% {
+  }
+  100% {
+	background: none;
+	opacity: 0;
+	z-index: -1;
+  }
+
+}
+
+
+/*
+ * Custom animations
+ */
+
+@keyframes custom__hide {
+  0% {
+  }
+  50% {
+
+  }
+  100% {
+	transform: translate3d(0,-50%,0);
+	opacity: 0;
+	z-index: -1;
+  }
+
+}
+
+@keyframes custom__hide-bg {
+  0% {
+  }
+  50% {
+  }
+  100% {
+	background: none;
+	z-index: -1;
+  }
+
+}
+
+@keyframes custom__show {
+  0% {
+	transform: translate3d(0,50%,0);
+  }
+  50% {
+  }
+  100% {
+	opacity: 1;
+	z-index: 99999;
+  }
+}
+
+
