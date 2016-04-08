@@ -1,0 +1,1 @@
+$(function(){$(".js-open-modal").each(function(){var a=$(this).data("what"),e=$("."+a),t=$(this),i=e.html(),n=t.parents(".example__item").append('<div class="example__code"><textarea></textarea></div>').find("textarea");n.val(i),t.on("click",function(){e.simplePop()})})});

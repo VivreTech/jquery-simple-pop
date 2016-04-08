@@ -32,6 +32,10 @@
 
 ## Plugin-specific files:
 
+
+## Node
+node_modules
+
 # IntelliJ
 /out/
 

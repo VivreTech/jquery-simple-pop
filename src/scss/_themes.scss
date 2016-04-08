@@ -1,0 +1,70 @@
+
+//Custom
+.modal__wrapper--example-theme {
+
+  background: rgba(#333, .2);
+
+  &.is-invisible {
+    animation: example__hide-bg .5s;
+    animation-fill-mode: forwards;
+    .modal__content {
+      animation: example__hide .5s;
+      animation-fill-mode: forwards;
+    }
+  }
+  &.is-visible {
+    .modal__content {
+      animation: example__show .3s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  .modal__content {
+    width: 420px;
+    box-shadow: 0 0 10px 2px rgba(#000, .2);
+    padding: 20px;
+  }
+}
+
+
+/*
+ * Custom animations
+ */
+
+@keyframes example__hide {
+  0% {
+  }
+  50% {
+
+  }
+  100% {
+    transform: translate3d(0,-50%,0);
+    opacity: 0;
+    z-index: -1;
+  }
+
+}
+
+@keyframes example__hide-bg {
+  0% {
+  }
+  50% {
+  }
+  100% {
+    background: none;
+    z-index: -1;
+  }
+
+}
+
+@keyframes example__show {
+  0% {
+    transform: translate3d(0,50%,0);
+  }
+  50% {
+  }
+  100% {
+    opacity: 1;
+    z-index: 99999;
+  }
+}

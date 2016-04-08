@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simpe Popup Example</title>
+    <link rel="stylesheet" href="dist/css/simplePop.css">
+    <link rel="stylesheet" href="dist/css/example.css">
+</head>
+<body>
+
+    <div class="example__wrapper">
+
+
+        <h1>Simple Pop examples</h1>
+
+        <div class="example__examples">
+            <div class="example__item">
+                <div class="example__trigger">
+                    <h3>Bare bones modal</h3>
+                    <button class="js-open-modal" data-what="js-example-modal-1">Open example 1</button>
+                </div>
+            </div>
+
+            <div class="example__item">
+                <div class="example__trigger">
+                    <h3>Custom bones modal</h3>
+                    <button class="js-open-modal" data-what="js-example-modal-2">Open example 2</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal__wrapper is-hidden js-example-modal-1">
+        <div class="modal__double js-modal__double">
+            <div class="modal__content">
+                <a href="#" class="modal__close js-modal__close"></a>
+                <h1>Example 1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, aspernatur commodi consectetur deleniti dignissimos eum explicabo fugit harum hic illo, nostrum, perspiciatis provident quaerat quidem repellendus reprehenderit suscipit voluptas voluptate?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal__wrapper modal__wrapper--example-theme is-hidden js-example-modal-2">
+        <div class="modal__double js-modal__double">
+            <div class="modal__content">
+                <a href="#" class="modal__close js-modal__close"></a>
+                <h1>Example 2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at doloremque ea optio voluptates. Dolorum excepturi, minus. Eveniet, iste, magnam? Assumenda delectus ipsam quam recusandae voluptatibus. Beatae cum et ut!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script src="dist/js/jquery.simplePopup.js"></script>
+    <script src="dist/js/example.js"></script>
+
+</body>
+</html>

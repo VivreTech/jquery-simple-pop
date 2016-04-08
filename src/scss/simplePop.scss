@@ -136,49 +136,6 @@
 	width: 960px;
 	box-shadow: 0 0 10px 2px rgba(#000, .2);
   }
-
-  .modal__close {
-	&:before {
-	  display: none;
-	}
-	@extend .icn;
-	@extend .icn-v2_close;
-  }
-
-}
-
-.modal__wrapper--custom-theme {
-
-  background: rgba(#333, .2);
-
-  &.is-invisible {
-	animation: custom__hide-bg .5s;
-	animation-fill-mode: forwards;
-	.modal__content {
-	  animation: custom__hide .5s;
-	  animation-fill-mode: forwards;
-	}
-  }
-  &.is-visible {
-	.modal__content {
-	  animation: custom__show .3s;
-	  animation-fill-mode: forwards;
-	}
-  }
-
-  .modal__content {
-	width: 960px;
-	box-shadow: 0 0 10px 2px rgba(#000, .2);
-  }
-
-  .modal__close {
-	&:before {
-	  display: none;
-	}
-	@extend .icn;
-	@extend .icn-v2_close;
-  }
-
 }
 
 /*

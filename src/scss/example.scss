@@ -1,0 +1,31 @@
+@import "themes";
+
+* {
+  box-sizing: border-box;
+}
+
+.example__wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+.example__item {
+  overflow: auto;
+  border-top:1px solid #eee;
+  padding: 20px 0;
+}
+
+.example__trigger {
+  width: 50%;
+  float: left;
+}
+
+.example__code {
+  width: 50%;
+  float: right;
+  textarea {
+    width: 100%;
+    min-height: 150px;
+  }
+}
