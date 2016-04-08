@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be82dd45-e8db-40c9-b8b3-ae4efa620f9e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="simplePop.iws" />
@@ -30,8 +31,8 @@
             <entry file="file://$PROJECT_DIR$/readme.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor vertical-scroll-proportion="0.93562233">
-                    <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+                  <first_editor vertical-scroll-proportion="0.7639485">
+                    <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -68,9 +69,9 @@
         <option value="$PROJECT_DIR$/src/scss/example.scss" />
         <option value="$PROJECT_DIR$/src/scss/simplePop.scss" />
         <option value="$PROJECT_DIR$/src/scss/_themes.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/js/jquery.simplePopup.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
@@ -330,21 +331,21 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <marker date="1460113320000" expanded="true" signature="31:2330" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="38:226" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="233:2322" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="269:939" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="349:928" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="389:629" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="436:610" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="670:912" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="717:893" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1002:1526" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1055:1515" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1096:1500" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1619:2111" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1672:2100" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1713:2085" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="31:2373" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="38:226" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="233:2365" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="269:982" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="392:971" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="432:672" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="479:653" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="713:955" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="760:936" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1045:1569" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1098:1558" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1139:1543" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1662:2154" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1715:2143" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1756:2128" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1815,30 +1816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6896552">
-          <caret line="38" column="275" selection-start-line="38" selection-start-column="275" selection-end-line="38" selection-end-column="275" />
-          <folding>
-            <marker date="1460113320000" expanded="true" signature="31:2330" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="38:226" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="233:2322" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="269:939" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="349:928" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="389:629" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="436:610" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="670:912" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="717:893" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1002:1526" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1055:1515" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1096:1500" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1619:2111" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1672:2100" placeholder="..." />
-            <marker date="1460113320000" expanded="true" signature="1713:2085" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7217538">
@@ -1963,11 +1940,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37241378">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <marker date="1460114724000" expanded="true" signature="31:2373" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="38:226" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="233:2365" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="269:982" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="392:971" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="432:672" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="479:653" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="713:955" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="760:936" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1045:1569" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1098:1558" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1139:1543" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1662:2154" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1715:2143" placeholder="..." />
+            <marker date="1460114724000" expanded="true" signature="1756:2128" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="0.93562233">
-            <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <first_editor vertical-scroll-proportion="0.7639485">
+            <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />

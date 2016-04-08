@@ -1,4 +1,4 @@
-# Simple modal/popup for inline elements based on CSS
+# Simple Modal/Popup for inline elements
 
 
 ## How to use this plugin
@@ -86,7 +86,7 @@ You have callbacks onClose, onIntentClose, onMistakeClose
 ```
 
 ##Demo
-You can run index.html or run a mini-serve with gulp, browsersync and all the goodies
+You can run `index.html` or run a mini-serve with gulp, browsersync and all the goodies
 
 
 - Run `sudo npn install` to install dependencies
